@@ -12,6 +12,7 @@ const WelcomeScreen = () => {
         value={codeValue}
         onChangeText={setCodeValue}
       />
+      <Text>Test</Text>
     </View>
   );
 };
