@@ -29,3 +29,9 @@ describe('Code Input', () => {
     expect(codeInput.props.value).toEqual(DUMMY_CODE);
   });
 });
+
+test('test 1 is found', () => {
+  const {getByTestId} = render(<WelcomeScreen />);
+  const codeInput = getByTestId('test-1');
+  expect(codeInput).toBeDefined();
+});
